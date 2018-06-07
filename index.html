@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head lang="fr">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Compte à rebours</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
+</head>
+<body>
+<h1>Compte à rebours</h1>
+
+<!-- entrer nombre utilisateur -->
+<div id="texteEntre">Entrez une valeur en secondes et cliquez sur le bouton Demarrer</div> </br>
+
+<div id="affiche">
+    <input id="nbr">
+</div>
+    
+    
+    
+    
+<!-- zone d'affichage du compteur -->
+   
+ 
+    <div id="compteurAlpha">
+            <div id="compteur"></div>
+    </div>
+
+
+    <div id="saisieCompteur">
+    <!-- bouton de Demarrage/Réinitialisation -->
+    <input type="button" id="btn0" value="Demarrer">
+
+    <!-- Bouton de Pause/Redemarrage -->
+    <input type="button" id="selecteur" value="Pause">
+
+    <!-- Bouton de Reset général -->
+    <button onclick="reCharge()" id="btn2">Reset</button>
+</div>
+
+
+
+
+<!-- Bootstap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+<!-- script personnel -->
+ <script src="main.js"></script>  <!--script personnel   -->
+
+<footer>
+
+</footer>
+</body>
+</html>
